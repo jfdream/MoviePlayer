@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.license      = "MIT (example)"
   s.source       = { :git => "https://github.com/jfdream/MoviePlayer.git", :commit => "7c5566bd13ead1d8d621c16c11f9b0a07a0eb76e" }
   s.source_files  = "*.{h,m,a}}"
-  s.exclude_files = "Classes/Exclude"
+  s.exclude_files = "README.md"
 end
