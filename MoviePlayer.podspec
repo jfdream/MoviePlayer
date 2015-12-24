@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "A video play with AVFoundation"
   s.description  = <<-DESC
                    DESC
-
+  s.ios.deployment_target = "7.0" 
   s.homepage     = "https://github.com/jfdream/MoviePlayer"
   s.license      = "MIT (example)"
   s.source       = { :git => "https://github.com/jfdream/MoviePlayer.git", :commit => "7c5566bd13ead1d8d621c16c11f9b0a07a0eb76e" }
